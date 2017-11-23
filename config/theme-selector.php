@@ -6,7 +6,7 @@
 return [
 
     "separator" => "------------------------------------------------",
-    
+
     "themes" => [
 
         "separator0" => "------------------------------------------------",
@@ -24,6 +24,16 @@ return [
             "class"      => "",
             "stylesheets" => [
                 "css/default.min.css"
+            ]
+        ],
+
+        "separator01" => "------------------------------------------------",
+
+        "vgrid"      => [
+            "title"      => "Vertikalt grid",
+            "class"      => "",
+            "stylesheets" => [
+                "css/vgrid.min.css"
             ]
         ],
 

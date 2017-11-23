@@ -15,28 +15,40 @@ return [
         "items" => [
 
             "home" => [
-                "text"  => t("Hem"),
+                "text"  => t("HEM"),
                 "url"   => $this->di->get("url")->create("index"),
                 "title" => t("Hem")
             ],
 
             "report" => [
-                "text"  => t("Redovisning"),
+                "text"  => t("REDOVISNING"),
                 "url"   => $this->di->get("url")->create("report"),
                 "title" => t("Redovisningar"),
                 "mark-if-parent" => true,
             ],
 
             "about" => [
-                "text"  => t("Om"),
+                "text"  => t("OM"),
                 "url"   => $this->di->get("url")->create("about"),
                 "title" => t("Om denna websida")
             ],
 
             "contact" => [
-                "text"  => t("Kontakt"),
+                "text"  => t("KONTAKT"),
                 "url"   => $this->di->get("url")->create("contact"),
                 "title" => t("Kontaktinformation")
+            ],
+
+            "grid" => [
+                "text"  => t("GRID"),
+                "url"   => $this->di->get("url")->create("grid"),
+                "title" => t("Grid layout")
+            ],
+
+            "typography" => [
+                "text"  => t("TYPOGRAPHY"),
+                "url"   => $this->di->get("url")->create("typography"),
+                "title" => t("Typography layout")
             ],
         ],
     ],
@@ -62,22 +74,34 @@ return [
             ],
 
             "report" => [
-                "text"  => t("Report"),
+                "text"  => t("Redovisning"),
                 "url"   => $this->di->get("url")->create("report"),
-                "title" => t("Reports from kmom assignments"),
+                "title" => t("Redovisningar"),
                 "mark-if-parent" => true,
             ],
 
             "about" => [
-                "text"  => t("About"),
+                "text"  => t("Om"),
                 "url"   => $this->di->get("url")->create("about"),
-                "title" => t("About this website")
+                "title" => t("Om denna websida")
             ],
 
             "contact" => [
                 "text"  => t("Kontakt"),
                 "url"   => $this->di->get("url")->create("contact"),
                 "title" => t("Kontaktinformation")
+            ],
+
+            "grid" => [
+                "text"  => t("Grid"),
+                "url"   => $this->di->get("url")->create("grid"),
+                "title" => t("Grid layout")
+            ],
+
+            "typography" => [
+                "text"  => t("Typography"),
+                "url"   => $this->di->get("url")->create("typography"),
+                "title" => t("Typography layout")
             ],
         ],
     ],
