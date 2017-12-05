@@ -27,16 +27,18 @@ return [
                 "mark-if-parent" => true,
             ],
 
-            "about" => [
-                "text"  => t("OM"),
-                "url"   => $this->di->get("url")->create("about"),
-                "title" => t("Om denna websida")
+            "analysis" => [
+                "text"  => t("ANALYS"),
+                "url"   => $this->di->get("url")->create("analysis"),
+                "title" => t("Analyser"),
+                "mark-if-parent" => true,
             ],
 
-            "contact" => [
-                "text"  => t("KONTAKT"),
-                "url"   => $this->di->get("url")->create("contact"),
-                "title" => t("Kontaktinformation")
+            "theme" => [
+                "text"  => t("TEMAN"),
+                "url"   => $this->di->get("url")->create("theme"),
+                "title" => t("Teman"),
+                "mark-if-parent" => true,
             ],
 
             "grid" => [
@@ -46,9 +48,27 @@ return [
             ],
 
             "typography" => [
-                "text"  => t("TYPOGRAPHY"),
+                "text"  => t("TYPOGRAFI"),
                 "url"   => $this->di->get("url")->create("typography"),
                 "title" => t("Typography layout")
+            ],
+
+            "contact" => [
+                "text"  => t("KONTAKT"),
+                "url"   => $this->di->get("url")->create("contact"),
+                "title" => t("Kontaktinformation")
+            ],
+
+            "about" => [
+                "text"  => t("OM"),
+                "url"   => $this->di->get("url")->create("about"),
+                "title" => t("Om denna websida")
+            ],
+
+            "themeSelector" => [
+                "text"  => t("TEMAVÄLJARE"),
+                "url"   => $this->di->get("url")->create("theme-selector"),
+                "title" => t("Theme selector")
             ],
         ],
     ],
@@ -68,41 +88,61 @@ return [
         "items" => [
 
             "home" => [
-                "text"  => t("Hem"),
+                "text"  => t("HEM"),
                 "url"   => $this->di->get("url")->create("index"),
                 "title" => t("Hem")
             ],
 
             "report" => [
-                "text"  => t("Redovisning"),
+                "text"  => t("REDOVISNING"),
                 "url"   => $this->di->get("url")->create("report"),
                 "title" => t("Redovisningar"),
                 "mark-if-parent" => true,
             ],
 
-            "about" => [
-                "text"  => t("Om"),
-                "url"   => $this->di->get("url")->create("about"),
-                "title" => t("Om denna websida")
+            "analysis" => [
+                "text"  => t("ANALYS"),
+                "url"   => $this->di->get("url")->create("analysis"),
+                "title" => t("Analyser"),
+                "mark-if-parent" => true,
             ],
 
-            "contact" => [
-                "text"  => t("Kontakt"),
-                "url"   => $this->di->get("url")->create("contact"),
-                "title" => t("Kontaktinformation")
+            "theme" => [
+                "text"  => t("TEMAN"),
+                "url"   => $this->di->get("url")->create("theme"),
+                "title" => t("Teman"),
+                "mark-if-parent" => true,
             ],
 
             "grid" => [
-                "text"  => t("Grid"),
+                "text"  => t("GRID"),
                 "url"   => $this->di->get("url")->create("grid"),
                 "title" => t("Grid layout")
             ],
 
             "typography" => [
-                "text"  => t("Typography"),
+                "text"  => t("TYPOGRAPHY"),
                 "url"   => $this->di->get("url")->create("typography"),
                 "title" => t("Typography layout")
             ],
+
+            "contact" => [
+                "text"  => t("KONTAKT"),
+                "url"   => $this->di->get("url")->create("contact"),
+                "title" => t("Kontaktinformation")
+            ],
+
+            "about" => [
+                "text"  => t("OM"),
+                "url"   => $this->di->get("url")->create("about"),
+                "title" => t("Om denna websida")
+            ],
+
+            "themeSelector" => [
+                "text"  => t("TEMAVÄLJARE"),
+                "url"   => $this->di->get("url")->create("theme-selector"),
+                "title" => t("Theme selector")
+                        ],
         ],
     ],
 

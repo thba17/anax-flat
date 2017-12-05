@@ -48,6 +48,7 @@ return [
             "data" => [
                 "class" => "logo-1",
                 "src" => "img/favicon/favicon_128x128.png",
+                // "src" => "img/2017PNGKHKLogotypOriginalRGB86x128.png",
                 "alt" => "Logo",
             ],
             "sort" => 1
