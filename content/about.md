@@ -12,7 +12,8 @@ views:
 
 Om denna websida
 ==============================================
-<img src="img/favicon/german-2566487_128.jpg" alt="" style="float: left; margin-right: 1rem;">
+<!-- <img src="img/favicon/german-2566487_128.jpg" alt="" style="float: left; margin-right: 1rem;"> -->
+[FIGURE src="image/favicon/german-2566487_128.jpg?h=100" class="left"]
 
 Denna websida är ett kursprojekt för delkursen design som ingår i
 kurspaketet "Webprogrammering och Databaser" vid Blekinge Teknska Högskola:

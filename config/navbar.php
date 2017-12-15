@@ -53,6 +53,18 @@ return [
                 "title" => t("Typography layout")
             ],
 
+            "images" => [
+                "text"  => t("BILDER"),
+                "url"   => $this->di->get("url")->create("images"),
+                "title" => t("Bilder")
+            ],
+
+            "blogg" => [
+                "text"  => t("BLOG"),
+                "url"   => $this->di->get("url")->create("blogg"),
+                "title" => t("Blog")
+            ],
+
             "contact" => [
                 "text"  => t("KONTAKT"),
                 "url"   => $this->di->get("url")->create("contact"),
@@ -65,11 +77,11 @@ return [
                 "title" => t("Om denna websida")
             ],
 
-            "themeSelector" => [
-                "text"  => t("TEMAVÄLJARE"),
-                "url"   => $this->di->get("url")->create("theme-selector"),
-                "title" => t("Theme selector")
-            ],
+            // "themeSelector" => [
+            //     "text"  => t("TEMAVÄLJARE"),
+            //     "url"   => $this->di->get("url")->create("theme-selector"),
+            //     "title" => t("Theme selector")
+            // ],
         ],
     ],
 
@@ -126,6 +138,18 @@ return [
                 "title" => t("Typography layout")
             ],
 
+            "images" => [
+                "text"  => t("BILDER"),
+                "url"   => $this->di->get("url")->create("images"),
+                "title" => t("Bilder")
+            ],
+
+            "blogg" => [
+                "text"  => t("BLOG"),
+                "url"   => $this->di->get("url")->create("blogg"),
+                "title" => t("Blog")
+            ],
+
             "contact" => [
                 "text"  => t("KONTAKT"),
                 "url"   => $this->di->get("url")->create("contact"),
@@ -138,11 +162,11 @@ return [
                 "title" => t("Om denna websida")
             ],
 
-            "themeSelector" => [
-                "text"  => t("TEMAVÄLJARE"),
-                "url"   => $this->di->get("url")->create("theme-selector"),
-                "title" => t("Theme selector")
-                        ],
+            // "themeSelector" => [
+            //     "text"  => t("TEMAVÄLJARE"),
+            //     "url"   => $this->di->get("url")->create("theme-selector"),
+            //     "title" => t("Theme selector")
+            // ],
         ],
     ],
 
