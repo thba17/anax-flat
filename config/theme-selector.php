@@ -13,7 +13,7 @@ return [
 
         "base"      => [
             "title"      => "Minimal style, only the plain base",
-            "class"      => "",
+            "class"      => "base",
             "stylesheets" => [
                 "css/base.min.css",
                 "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -22,7 +22,7 @@ return [
 
         "default"   => [
             "title"      => "Your own selected default theme",
-            "class"      => "",
+            "class"      => "default",
             "stylesheets" => [
                 "css/default.min.css",
                 "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -33,7 +33,7 @@ return [
         //
         // "vgrid"      => [
         //     "title"      => "Vertikalt grid",
-        //     "class"      => "",
+        //     "class"      => "vgrid",
         //     "stylesheets" => [
         //         "css/vgrid.min.css"
         //     ]
@@ -90,13 +90,67 @@ return [
             ]
         ],
 
-        "separator2" => "------------------------------------------------",
-
         "fun"       => [
             "title"      => "All fun, test and play, make it stand out!",
             "class"      => "fun",
             "stylesheets" => [
                 "css/fun.min.css",
+                "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css",
+                "https://fonts.googleapis.com/css?family=Roboto+Condensed"
+            ]
+        ],
+
+        "separator2" => "------------------------------------------------",
+
+        "Element1"       => [
+            "title"      => "Centered with structure and opacity",
+            "class"      => "element1",
+            "stylesheets" => [
+                "css/element1.min.css",
+                "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css",
+                // "https://fonts.googleapis.com/css?family=Roboto+Condensed"
+            ]
+        ],
+
+
+        "Element2"       => [
+            "title"      => "Full width, lines borders and gradients",
+            "class"      => "element2",
+            "stylesheets" => [
+                "css/element2.min.css",
+                "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css",
+                "https://fonts.googleapis.com/css?family=Roboto+Condensed"
+            ]
+        ],
+
+
+        "Element3"       => [
+            "title"      => "Centered with background pictures",
+            "class"      => "element3",
+            "stylesheets" => [
+                "css/element3.min.css",
+                "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css",
+                "https://fonts.googleapis.com/css?family=Roboto+Condensed"
+            ]
+        ],
+
+
+        "Principle1"       => [
+            "title"      => "Design principle based on Contrasts",
+            "class"      => "principle1",
+            "stylesheets" => [
+                "css/principle1.min.css",
+                "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css",
+                "https://fonts.googleapis.com/css?family=Merriweather:700|Nunito+Sans"
+            ]
+        ],
+
+
+        "Principle2"       => [
+            "title"      => "Design principle based on Movement",
+            "class"      => "principle2",
+            "stylesheets" => [
+                "css/principle2.min.css",
                 "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css",
                 "https://fonts.googleapis.com/css?family=Roboto+Condensed"
             ]
